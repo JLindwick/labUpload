@@ -33,9 +33,6 @@ def writeResults(hourlyRate,totalHours,overTimePay):
 
 def myMainFunction():
     myHourlyRate = float(input("Please input the hourly rate of the employee: "))
-    print(type(myHourlyRate))
-    print(type(myHourlyRate) == float)
-
     if type(myHourlyRate) == float:
         myHoursWorked = collectDailyWorkHours()
         myTotalHours = calculateTotalHours(myHoursWorked)
