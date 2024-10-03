@@ -45,7 +45,7 @@ def myMainFunction():
             print(f"Total amount paid for this week is: {myFinalPay}" )
         else:
             print("There isn't any overtime for the employee this week.")
-            myRegularPay = int(myHourlyRate) * int(myTotalHours)
+            myRegularPay = myHourlyRate * myTotalHours
             print(f"Total amount paid for this week is: {myRegularPay}")
         writeResults(myHourlyRate,myTotalHours,myOvertimePay)
     else:
